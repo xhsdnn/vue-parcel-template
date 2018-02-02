@@ -10,6 +10,8 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(ElementUI);
 
+// import '../static/styles/home.css';
+
 new Vue({
     el: '#app',
     router,

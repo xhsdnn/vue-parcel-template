@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-      <router-view></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style scoped>
-  #app {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-  }
+<style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
 </style>

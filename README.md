@@ -14,7 +14,7 @@ npm run dev
 ```
 // 默认打包到dist文件夹下
 
-npm run build1
+npm run build
 ```
 
 ### 注：
