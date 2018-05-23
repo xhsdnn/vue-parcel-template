@@ -1,7 +1,7 @@
 vue-parcel-template
 vue+parcel+element-ui+vue-router实现的简单模版工程
 
-### 使用hellodqworld
+### 使用helloworld
 ```
 npm install
 
