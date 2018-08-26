@@ -1,28 +1,34 @@
 {
   "name": "vue-parcel-template",
   "version": "1.0.1",
-  "description": "",
+  "description": "element ui parcel template",
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
     "build": "NODE_ENV=production parcel build index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xhsdnn/vue-parcel-template.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "css-loader": "^0.28.9",
-    "element-ui": "^2.0.11",
-    "parcel-plugin-vue": "^1.5.0",
-    "vue": "^2.5.13",
+    "element-ui": "^2.4.6",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.5",
-    "babel-preset-env": "^1.6.1",
-    "less": "^2.7.3",
-    "parcel-bundler": "^1.5.1"
+    "@vue/component-compiler-utils": "^2.2.0",
+    "autoprefixer": "^7.2.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "less": "^3.8.1",
+    "parcel-bundler": "^1.9.7",
+    "vue-template-compiler": "^2.5.17"
   }
 }
